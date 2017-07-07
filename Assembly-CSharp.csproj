@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0BFD5A9C-1445-A12D-D4B2-09E15F43ECC1}</ProjectGuid>
+    <ProjectGuid>{D2B845C6-FA63-736B-5437-A571AD6E83B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
      <Compile Include="Assets\moveCamera.cs" />
      <Compile Include="Assets\moveEnemy.cs" />
      <Compile Include="Assets\moveTheBall.cs" />
+     <Compile Include="Assets\pointers.cs" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity 5.50f3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
