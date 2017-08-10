@@ -7,18 +7,18 @@ public class moveTheBall : MonoBehaviour {
     private Rigidbody b;
     private Vector3 movement;
     [HideInInspector] public float speed = 4.0f;
-	// Use this for initialization
-	void Start () {
-		
+    // Use this for initialization
+    void Start () {
+
         b = GetComponent<Rigidbody>();
-	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
-		
+    }
+
+    // Update is called once per frame
+    void FixedUpdate () {
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-       
+
 
         if (Input.GetKeyDown("space"))
         {
@@ -31,6 +31,6 @@ public class moveTheBall : MonoBehaviour {
             b.AddForce(movement * speed);
         }
 
-      
-	}
+
+    }
 }
