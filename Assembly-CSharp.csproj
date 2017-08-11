@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bouce_Ball.cs" />
+     <Compile Include="Assets\CameraMovement.cs" />
+     <Compile Include="Assets\MovePlayer.cs" />
+     <Compile Include="Assets\MoveThePlayer.cs" />
      <Compile Include="Assets\Scripts\DoSomething.cs" />
      <Compile Include="Assets\Scripts\MoveIt.cs" />
      <Compile Include="Assets\Scripts\cars.cs" />
